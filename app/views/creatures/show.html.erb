@@ -1,2 +1,8 @@
 <h1><%= @creature.name %> </h1>
 <h4><%= @creature.description%> </h4>
+
+<br>
+
+<%= form_for @creature, html: {method: "delete"} do |f| %>
+    <%= f.submit "Delete #{@creature.name}?"%>
+<%end%>
