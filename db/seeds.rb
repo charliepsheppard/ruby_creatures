@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Creature.create({name: "Bigfoot", desription: "tall creature"})
-Creature.create({name: "Nessie", desription: "loch monster"})
-Creature.create({name: "Abomidable Snowman", desription: "scary large snowman"})
+Creature.create({name: "Bigfoot", description: "tall creature"})
+Creature.create({name: "Nessie", description: "loch monster"})
+Creature.create({name: "Abomidable Snowman", description: "scary large snowman"})

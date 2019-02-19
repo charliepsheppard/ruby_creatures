@@ -4,4 +4,8 @@ class CreaturesController < ApplicationController
         @creatures = Creature.all
     end
 
+    def show
+        @creature = Creature.find(params[:id])
+    end
+
 end

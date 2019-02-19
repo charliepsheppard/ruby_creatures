@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_02_19_185440) do
 
   create_table "creatures", force: :cascade do |t|
     t.string "name"
-    t.string "desription"
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
